@@ -1,0 +1,46 @@
+::selection{
+    background-color: bisque;
+}
+body{
+    font-family: Oswald;
+    background-color: rgb(244, 241, 241);
+}
+h1{
+    font-size: 45px;
+    margin-top: 50px;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+        
+}
+
+.about-me-container{
+    margin-top: -150px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 241, 241);
+}
+
+.social-media-buttons{
+    display: flex;
+}
+.social-media-buttons button{
+    background-color: rgb(244, 241, 241);
+    border: none;
+    margin: 100px;
+    cursor: pointer;
+}
+.social-media-buttons button:hover{
+    box-shadow: 10px 10px 8px 10px rgb(136, 136, 136);
+}
+.social-media-buttons img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}

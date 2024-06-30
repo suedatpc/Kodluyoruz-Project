@@ -1,0 +1,22 @@
+.bg-img-container{
+    line-height: 65px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 65px;
+    bottom: 0;
+
+    color: white;
+    background-color: black;
+    background-image: url(https://images.squarespace-cdn.com/content/565cb484e4b0060cdb7c2af1/1473178854715-96NE5TDJ8P0JLSOPXS62/Spring-Footsteps.gif?content-type=image%2Fgif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.bg-img-container h1{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}

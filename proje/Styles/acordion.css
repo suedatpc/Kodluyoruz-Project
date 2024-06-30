@@ -1,0 +1,31 @@
+.acordion-container{
+  padding-bottom: 200px;
+}
+
+.acordion-container h1{
+    font-size: 40px;
+    text-align: center;
+}
+.acordion-container p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+summary {
+    font-size: 17px;
+    background-color: rgb(102, 142, 104);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 20px;
+  }
+
+  details {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+  details[open] summary {
+    background-color: rgb(160, 207, 159);
+  }
+

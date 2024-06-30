@@ -1,0 +1,17 @@
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    
+    font-family: Oswald;
+    font-weight: 700;
+}
+
+::selection{
+    background-color: lightgreen;
+}
